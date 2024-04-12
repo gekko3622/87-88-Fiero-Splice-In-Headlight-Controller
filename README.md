@@ -82,7 +82,7 @@ If you go this route, cut the new notches as indicated in red on this image:\
 ![IMG_0999](https://github.com/gekko3622/87-88-Fiero-Headlight-Controller/assets/166318874/2b60277c-8df9-4c41-be6a-6ab5698545a2)
 
 ## Component List
-See the Wiki for a full list of required components.
+See BOM.xlsx for a full list of required components.
 
 ## Enclosure
 The PCB is intended to be installed within a water-resistant project box.\
