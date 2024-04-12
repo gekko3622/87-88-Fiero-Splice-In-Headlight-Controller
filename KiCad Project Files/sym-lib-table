@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Fiero")(type "KiCad")(uri "${KIPRJMOD}/Fiero.kicad_sym")(options "")(descr ""))
+)
