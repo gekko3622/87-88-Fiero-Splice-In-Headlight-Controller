@@ -1,11 +1,11 @@
 # 1987-1988 Pontiac Fiero Headlight Motor Controller
 **PCB Designed by Ryan Blanchard 4.2024**\
 **Based On An Project by WalkerTexan** (See credits section for details and link)\
-**For non-commercial use only.**
+**FOR NON-COMMERCIAL USE ONLY.**
 
 ![image0](https://github.com/gekko3622/87-88-Fiero-Headlight-Controller/assets/166318874/afa2760a-d98e-4d06-80ae-5b2233025cc9)\
 **Note:** This is my personal PCB, based on version 2.0. The files contained in this project are version 2.1.\
-It is electrically identical. The only changes made were to reposition and enlarge some of the silkscreen label text for legibility.
+V2.1 is electrically identical. The only changes made were to reposition and enlarge some of the silkscreen label text for legibility.
 
 ## Intro
 This project is a PCB implementation of WalkerTexan's "Fiero Headlight Controller".\
@@ -28,9 +28,11 @@ This MUST be programmed onto the Arduino for the module to function.
 
 **2. Gerber Files (For Production)**
 - These are the files that must be provided to a fabricator to produce a PCB.\
-  The provided gerber files will produce an exact copy of the PCB installed in my own car.
+  **VERY IMPORTANT:** This PCB MUST be produced with 2 Oz copper weight in order to meet power handling requirements.\
+  The provided gerber files will produce an electrically identical copy of the PCB installed in my own car.
 
   The provided Zip file can be directly submitted to a fabricator and contains all of the other individual files in this folder.
+  
 
 **3. KiCad Project Files**
 - These are my original KiCad 8.0 project files.\
@@ -70,9 +72,10 @@ C2-2  -  Gray/Black\
 C2-3  -  Dark Green\
 C2-4  -  Gray
 
-**NOTE:** You may want to run new wires and connectors to the headlight motors to preserve original wiring.\
-I used a generic equivalent of AC Delco PT724. The connector has notches cut out of the pin barrels.\
-These do not match the notches on the headlight motor connector.\
+**You may want to run new wires and connectors to the headlight motors to preserve original wiring.**
+
+I used a generic equivalent of AC Delco PT724.\
+The connector has notches cut into the plastic pin barrels. These do not match the notches on the headlight motor connector.\
 I solved this problem by heating a knife with a lighter and cutting my own matching notches into the new connectors.
 
 If you go this route, cut the new notches as indicated in red on this image:\
@@ -80,6 +83,16 @@ If you go this route, cut the new notches as indicated in red on this image:\
 
 ## Component List
 See the Wiki for a full list of required components.
+
+## Enclosure
+The PCB is intended to be installed within a water-resistant project box.\
+The specific box I used is this: https://www.amazon.com/dp/B075WZFWFV?th=1  
+Any enclosure with space for a 170mm x 110mm PCB could be used, though mounting hole pattern should be considered.\
+Keep in mind there needs to be some space for the wiring too.
+
+![image1](https://github.com/gekko3622/87-88-Fiero-Headlight-Controller/assets/166318874/7103cce1-4432-4cc2-b39d-5212d92ebda4)
+
+**PCB Mounting Holes (center to center):** 160 mm x 90 mm
 
 ## Credits
 The electrical schematic and Arduino code this project is based on were created by WalkerTexan.\
