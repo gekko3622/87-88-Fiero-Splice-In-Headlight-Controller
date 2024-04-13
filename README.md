@@ -94,6 +94,12 @@ Keep in mind there needs to be some space for the wiring too.
 
 **PCB Mounting Holes (center to center):** 160 mm x 90 mm
 
+## Modifications to Original Source
+1. Recreated the schematic diagram in KiCad.
+2. Designed a PCB based on the schematic.
+3. Substituted the 5V relays for an alternate part with higher current rating.
+4. Added detachable headers and connectors for connecting to the car's wiring.
+
 ## Credits
 The electrical schematic and Arduino code this project is based on were created by WalkerTexan.\
 See his original project here: https://www.hackster.io/walkertexan/fiero-headlight-controller-8eaa4c
