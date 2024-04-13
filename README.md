@@ -1,6 +1,6 @@
 # 1987-1988 Pontiac Fiero Headlight Motor Controller
 **PCB Designed by Ryan Blanchard 4.2024**\
-**Based On An Project by WalkerTexan** (See credits section for details and link)\
+**Based On A Project by WalkerTexan** (See credits section for details and link)\
 **FOR NON-COMMERCIAL USE ONLY.**
 
 ![image0](https://github.com/gekko3622/87-88-Fiero-Headlight-Controller/assets/166318874/afa2760a-d98e-4d06-80ae-5b2233025cc9)\
