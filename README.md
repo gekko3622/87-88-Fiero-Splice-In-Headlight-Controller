@@ -7,7 +7,8 @@
 **V2.1 has been retained in the repository for those who want to use external inline fuses or don't feel the need to.**
 
 ![image0](https://github.com/gekko3622/87-88-Fiero-Headlight-Controller/assets/166318874/afa2760a-d98e-4d06-80ae-5b2233025cc9)\
-**Note:** This is my personal PCB, based on version 2.0. The files contained in this project are version 2.1.\
+**Note:** This is my personal PCB, based on version 2.0. The files contained in this project are version 2.2 and 2.1.\
+V2.2 adds provisions for standard ATC fuses on the main 12V lines to the motors. Other minor trace routing optimizations were added as well.
 V2.1 is electrically identical. The only changes made were to reposition and enlarge some of the silkscreen label text for legibility.
 
 ## Intro
@@ -25,9 +26,12 @@ Pictured here is my original DIY prototype. The PCB version is night-and-day BEA
 
 
 ## Repository Contents
+
+**Items 2 and 3 are now contained within version numbered folders.**
+
 **1. Arduino Nano Program**
 - WalkerTexan's code for the Arduino Nano.\
-This MUST be programmed onto the Arduino for the module to function.
+This MUST be programmed onto the Arduino for the module to function. The same file is used for V2.2 and V2.1.
 
 **2. Gerber Files (For Production)**
 - These are the files that must be provided to a fabricator to produce a PCB.\
@@ -54,7 +58,8 @@ Wire colors give are for the wires contained in the factory wiring harness, whic
 If you make changes, you will need to determine your own wiring scheme.
 
 
-![Screenshot 2024-04-11 233351](https://github.com/gekko3622/87-88-Fiero-Headlight-Controller/assets/166318874/fcdd3d95-4449-4d28-abfd-25a15d8cbd68)
+![V2 2 board](https://github.com/gekko3622/87-88-Fiero-Headlight-Controller/assets/166318874/fd129175-5e77-4aca-832c-879dfa878c47)
+
 
 
 
