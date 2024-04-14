@@ -1,0 +1,121 @@
+(footprint "LED-5MM-5MM"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "LED1"
+		(at -1.524 -6.2484 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8a37c95f-0255-4f33-b59f-ccff356be689")
+		(effects
+			(font
+				(size 0.9144 0.9144)
+				(thickness 0.1524)
+			)
+			(justify left top)
+		)
+	)
+	(property "Value" "LED_5MM"
+		(at -1.524 -8.0264 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "ae5ee186-481d-429e-aa13-550be2928844")
+		(effects
+			(font
+				(size 0.9144 0.9144)
+				(thickness 0.1524)
+			)
+			(justify left top)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f1ffcb7e-cb01-4324-aa60-76b0a4a627f5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "78a48b68-9895-4924-981b-7b2390f4ba13")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d20f2955-0dca-4835-bf97-0d268d5fe06e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(fp_circle
+		(center -1.2949 -2.5151)
+		(end 1.2451 -2.5151)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "f7339d32-1899-46d6-829a-c9f23b63c348")
+	)
+	(fp_text user "+"
+		(at -2.9449 -1.8735 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "22ea7b56-7030-4c81-86e9-cb1f19d9065b")
+		(effects
+			(font
+				(face "NotoSansCJKsc-DemiLight")
+				(size 1.6256 1.6256)
+				(thickness 0.2032)
+			)
+			(justify left top)
+		)
+		(render_cache "+" 0
+			(polygon
+				(pts
+					(xy -1.307899 -0.883165) (xy -1.916563 -0.883165) (xy -1.916563 -0.27331) (xy -2.101981 -0.27331)
+					(xy -2.101981 -0.883165) (xy -2.710248 -0.883165) (xy -2.710248 -1.06104) (xy -2.101981 -1.06104)
+					(xy -2.101981 -1.670895) (xy -1.916563 -1.670895) (xy -1.916563 -1.06104) (xy -1.307899 -1.06104)
+				)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at -2.54 -2.54)
+		(size 2 2)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 0)
+		(uuid "6746467b-6e3a-4101-87a1-c2fac43bcdfa")
+	)
+	(pad "2" thru_hole oval
+		(at 0 -2.54)
+		(size 2 2)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 0)
+		(uuid "e148d1fb-b9ab-462b-b9de-b47b48ea4521")
+	)
+)
