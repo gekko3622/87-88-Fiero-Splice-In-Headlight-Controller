@@ -3,6 +3,9 @@
 **Based On A Project by WalkerTexan** (See credits section for details and link)\
 **FOR NON-COMMERCIAL USE ONLY.**
 
+**NEW! V2.2 has been added which supports internal ATC fuses for the motor power inputs.**\
+**V2.1 has been retained in the repository for those who want to use external inline fuses or don't feel the need to.**
+
 ![image0](https://github.com/gekko3622/87-88-Fiero-Headlight-Controller/assets/166318874/afa2760a-d98e-4d06-80ae-5b2233025cc9)\
 **Note:** This is my personal PCB, based on version 2.0. The files contained in this project are version 2.1.\
 V2.1 is electrically identical. The only changes made were to reposition and enlarge some of the silkscreen label text for legibility.
